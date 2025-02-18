@@ -5,7 +5,7 @@ import path from 'path';
 async function getRandomVideoFile() {
     const videoFiles = [];
     // Generate numbers from 0 to 60 with leading zeros
-    for (let i = 0; i <= 60; i++) {
+    for (let i = 0; i <= 5; i++) {
         videoFiles.push(`./assets/${i.toString().padStart(2, '0')}.mp4`);
     }
     
